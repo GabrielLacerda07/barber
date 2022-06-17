@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+header {
+    background-color: #000;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1 {
+    padding-top: 6px;
+    padding-left: 40px;
+    color: #fff;
+    font-size: 1.7em;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+.nav-item {
+    padding: 0 15px;
+}
+.nav-item span{
+    transition: .2s;
+    border-bottom: 0px solid rgb(52, 25, 9);
+}
+.nav-item span:hover {
+    border-bottom: 2px solid rgb(112, 55, 22) ;
+}
+.nav-link {
+    text-decoration: none;
+    font-size: 1.35rem;
+    color: #fff;
+    font-weight: 400;
+}
+/*Home*/
+#home{
+    height: 89vh;
+    background: url('../img/background-index.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#home img{
+    width: 220px;
+}
+#sob-barb .col-md-5{
+    background: #c0c0c0 /*url('../img/sobre-barb.png')*/;
+    background-image: url('../img/sobre-barb01.jpg');
+    background-position: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+.sobre-barbearia{
+    background-color: #f1f1f1;
+}
+.sobre-barbearia h2{
+    text-align: center;
+    font-weight: bold;
+}
+.sobre-barbearia p{
+    margin: 0 75px;
+    font-weight: 500;
+}
+/**/
+#serv-barb{
+    background-image: url('../img/background-indexdark-ofc.png');
+}
+#serv-barb .card{
+    border-radius: 2px;
+    margin: 45px;
+    box-shadow: rgb(223, 223, 223) 1px 1px 2px;
+}
+#serv-barb .card .card-title{
+    font-size: 2em;
+    text-shadow: #bbb 1px 1px 1px;
+}
+#serv-barb .card .card-text{
+    padding: 0 7px;
+    font-size: 1.1em;
+}
+#serv-barb .card span{
+    background-color: rgb(240, 240, 240);
+    box-shadow: #bbb 3px 3px 3px;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+#serv-barb a{
+    text-decoration: none;
+    color: rgb(55, 55, 55);
+}
+#serv-barb h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#time-barb .card{
+    margin: 45px;
+}
+#time-barb h1{
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#time-barb .img-card-time-01{
+    height: 420px;
+    background-image: url('../img/barbeiro04.jpg');
+    background-position: center center;
+}
+#time-barb .img-card-time-02{
+    height: 420px;
+    background-image: url('../img/barbeiro02.jpg') ;
+    background-position: center center;
+}
+#time-barb .img-card-time-03{
+    height: 420px;
+    background-image: url('../img/barbeiro03.jpg');
+    background-position: center top;
+}
+#time-barb .card-title{
+    text-align: center;
+    font-weight: bold;
+}
+#time-barb .card-subtitle{
+    text-align: center;
+    letter-spacing: 0.4px;
+    color:  rgb(100, 100, 100);
+}
+#contato-barb{
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+}
+#contato-barb h1{
+    text-align: center;
+}
+#contato-barb form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contato-barb .form-text{
+    color: rgb(219, 219, 219);
+}
+#contato-barb form .mb-3{
+    width: 70%;
+}
+#contato-barb button{
+    width: 70%;
+}
+footer{
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    font-size: 0.9em;
+    color: rgb(229, 229, 229);
+}
+footer a{
+    text-decoration: none;
+    color:rgb(229, 229, 229);
+}
+footer a:hover{
+    color: #fff;
+}
